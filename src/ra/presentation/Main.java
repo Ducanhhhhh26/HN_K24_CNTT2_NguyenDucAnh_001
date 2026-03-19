@@ -42,7 +42,7 @@ public class Main {
                     System.out.print("Nhập mã sinh viên cần cập nhật: ");
                     String id = sc.nextLine();
                     Student newData = new Student();
-                    newData.inputData(sc);
+                    newData.inputData2(sc);
                     sb.updateStudent(id, newData, sc);
                     break;
                 case 4:
